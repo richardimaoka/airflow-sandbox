@@ -8,3 +8,5 @@ pyvenv.cfg
 logs
 plugins
 .env
+
+__pycache__
