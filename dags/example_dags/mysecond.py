@@ -9,7 +9,7 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 dag = DAG(
-    dag_id="01_unscheduled",
+    dag_id="download_rocket_launches",
     start_date=airflow.utils.dates.days_ago(14),
     schedule_interval=None,
 )
